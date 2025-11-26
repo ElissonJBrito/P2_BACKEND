@@ -1,0 +1,17 @@
+# Laravel
+/laravel/vendor
+/laravel/node_modules
+/laravel/.env
+/laravel/storage/*.key
+/laravel/storage/logs/*.log
+
+# Docker
+/mysql_data
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea

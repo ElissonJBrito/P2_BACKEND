@@ -1,0 +1,13 @@
+# Evitar enviar arquivos/pastas do host que quebram o build ou aumentam muito o contexto
+mysql_data/
+**/mysql.sock
+*.sock
+
+# Dependências e metadados que não devem entrar na imagem
+node_modules/
+vendor/
+.git/
+.env
+.DS_Store
+npm-debug.log
+yarn-error.log
